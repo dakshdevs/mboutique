@@ -54,7 +54,7 @@ nav a {
 }
 
 header .icons a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #666;
     text-decoration: none;
     margin-left: 4px;
@@ -325,6 +325,7 @@ footer {
     header {
         padding: 2rem;
         display: flex;
+        justify-content: space-between;
         height: 10vh;
     }
     .carousel {
@@ -332,10 +333,13 @@ footer {
     }
     .carousel-inner img {
         height: 50vh;
-        width: 100%;
+    }
+    .mh1{
+        margin-top: 5vh;
     }
     .mhp {
         width: 100%;
+        margin-top: 10px;
     }
 }
 
@@ -355,7 +359,8 @@ footer {
     }
 
     header .icons a {
-        margin-left: 5px;
+        letter-spacing: normal;
+        font-size: 15px;
     }
 
     header #toggler:checked ~ .navbar {
@@ -370,7 +375,8 @@ footer {
     }
 
     header img {
-        margin-left: 10px;
+        margin-left: 70px;
+        width: 28%;
     }
 }
 
