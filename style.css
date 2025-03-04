@@ -1,6 +1,3 @@
-:root {
-    --pink: #e84393;
-}
 
 * {
     margin: 0;
@@ -14,6 +11,7 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-padding-top: 150px;
 }
 body{
     overflow-x: hidden;
@@ -177,7 +175,6 @@ input:hover{
 
 
 
-
 footer {
     background: #ffffff;
     color: rgb(0, 0, 0);
@@ -188,6 +185,7 @@ footer {
     text-align: left;
     width: 100%;
     max-width: 100vw;
+    margin-top: 10%;
 }
 
 .footer-content {
@@ -332,6 +330,9 @@ footer {
 @media (max-width: 991px) {
     html {
         font-size: 55%;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        scroll-padding-top: 120px;
     }
     header {
         padding: 2rem;
