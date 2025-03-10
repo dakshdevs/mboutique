@@ -506,4 +506,93 @@ footer {
     .conicon h4 span {
         font-size: 10px;
     }
+    .gh1{font-size: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .gh1 center {
+        font-size: 25px; 
+        margin-top: 20px;
+    }
+    
+    .gbutton center {
+        letter-spacing: 30px; 
+        margin-top: 30px;
+    }
+
+    .gbutton button {
+        font-size: 18px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gh1 center {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .gbutton center {
+        letter-spacing: 10px;
+        margin-top: 20px;
+    }
+
+    .gbutton button {
+        font-size: 16px;
+        width: 85px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gh1 center {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .gbutton center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        letter-spacing: 5px;
+    }
+
+    .gbutton button {
+        font-size: 14px;
+        width: 80px;
+        margin: 5px;
+    }
 }
